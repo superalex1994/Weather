@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="whitetext">
+        <h1>Weather App</h1>
+        <span>Location:</span>
+        <input type="text" id="searchTxt" style="width:200px" placeholder="Enter the address" />
+        <button id='submitButton' > Submit </button>
+    </div>
+    <br>
+    <div class="circle">
+        <div class="whitetext" id="currentTemp"></div>
+        <div class="whitetext" id="currentSummary"> </div>
+    </div>
+    <br>
+    <div id="future">
+        <div class="block">
+            <div class="dayOfWeek" id="futureDay1"></div>
+            <div class="hiTemp" id="futureHiTemp1"></div>
+            <div class="lowTemp" id="futureLowTemp1"></div>
+            <div class="summary" id="futureSum1"></div>
+        </div>
+        <div class="block">
+            <div class="dayOfWeek" id="futureDay2"></div>
+            <div class="hiTemp" id="futureHiTemp2"></div>
+            <div class="lowTemp" id="futureLowTemp2"></div>
+            <div class="summary" id="futureSum2"></div>
+        </div>
+        <div class="block">
+            <div class="dayOfWeek" id="futureDay3"></div>
+            <div class="hiTemp" id="futureHiTemp3"></div>
+            <div class="lowTemp" id="futureLowTemp3"></div>
+            <div class="summary" id="futureSum3"></div>
+        </div>
+        <div class="block">
+            <div class="dayOfWeek" id="futureDay4"></div>
+            <div class="hiTemp" id="futureHiTemp4"></div>
+            <div class="lowTemp" id="futureLowTemp4"></div>
+            <div class="summary" id="futureSum4"></div>
+        </div>
+        <div class="block">
+            <div class="dayOfWeek" id="futureDay5"></div>
+            <div class="hiTemp" id="futureHiTemp5"></div>
+            <div class="lowTemp" id="futureLowTemp5"></div>
+            <div class="summary" id="futureSum5"></div>
+        </div>
+    </div>
+
+</body>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</html>

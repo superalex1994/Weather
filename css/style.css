@@ -1,0 +1,72 @@
+body{
+    background: url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.whitetext{
+    color: white;
+    text-align: center;
+}
+
+.circle{
+    display: none;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.block{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: 100%;
+    position: relative;
+}
+
+.dayOfWeek{
+    color: white;
+    font-size: 150%;
+}
+
+.hiTemp{
+    color: white;
+    font-size: 200%;
+}
+
+.lowTemp{
+    color: white;
+    font-size: 150%;
+}
+
+.summary{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#currentTemp {
+    font-size: 250%;
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+
+#currentSummary{
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+}
+
+#future{
+    display:none;
+    height: 200px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
